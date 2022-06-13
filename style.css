@@ -1,0 +1,32 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #92ecd9;
+    font-family: Helvetica, sans-serif;
+    }
+    
+    p{
+    font-size: 20px;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    color: #92ecd9;
+    }
+    
+    body {
+    background-color: #010620;
+    }
+
+    img {
+    height: 30vh;
+    padding: 0 5px 10px 0;
+    }
+
+    /*.images{
+    display:flex;
+    }*/
+
+    a{
+        font-size: 20px;
+        color: #92ecd9;
+        font-family: Helvetica, sans-serif;
+    }
