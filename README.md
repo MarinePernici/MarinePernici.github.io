@@ -1,7 +1,7 @@
-## Mon premier site Web
+## Portfolio & CV
 
-Exercice Wild Code School - Initiation to HTML & CSS
+Utilisation du theme Bootstrap [Freelancer](https://startbootstrap.com/theme/freelancer) pour présenter mon parcours et mes réalisations
 
-https://marinepernici.github.io/
+Pour voir le rendu : https://marinepernici.github.io/
 
 
