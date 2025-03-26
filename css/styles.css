@@ -11044,3 +11044,108 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.portfolio-img {
+    width: 100%;
+    height: 250px; /* ou 300px selon tes besoins */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px; /* optionnel, pour des coins arrondis */
+}
+
+.tech-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tech-track {
+    display: inline-block;
+    animation: scroll-tech 20s linear infinite;
+}
+
+.tech-track img {
+    height: 40px;
+    margin: 0 15px;
+    vertical-align: middle;
+    opacity: 0.9;
+    transition: transform 0.3s;
+}
+
+.tech-track img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.tech-carousel:hover .tech-track {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-tech {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.contact-card {
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.contact-icon {
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    background-color: #1abc9c;
+}
+
+.contact-icon.social {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.contact-card .text-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-card a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-card a:hover {
+    color: #ffffff; /* couleur d'accent du thème Freelancer */
+    text-decoration: underline; /* optionnel */
+}
+
